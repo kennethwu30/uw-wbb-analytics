@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UW Huskies | Rebounding Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <div class="uw-header">
+        <div class="uw-logo-w">W</div>
+    </div>
+
+    <div class="sport-nav">
+        <div class="sport-title">Women's Basketball</div>
+        <div>
+            <span class="label-tag">Game:</span>
+            <select class="dropdown-select">
+                <option>vs Fresno State (Nov 19)</option>
+                <option>vs Michigan (Jan 1)</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="analysis-header">
+            <h1>Rebounding Performance</h1>
+
+            <div class="category-filter">
+                <span class="label-tag">Category:</span>
+                <select class="dropdown-select" style="min-width: 250px;">
+                    <option value="offensive">Offensive Rebounds</option>
+                    <option value="defensive">Defensive Rebounds</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-card critical">
+                <div class="m-label">Rebound Percentage</div>
+                <div class="m-value" id="rebound-pct" style="color: var(--danger-red);">41.2%</div>
+                <div class="m-sub">GOAL: 65.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="m-label">Total Opportunities</div>
+                <div class="m-value" id="total-attempts">40/97</div>
+                <div class="m-sub">&nbsp;</div>
+            </div>
+            <div class="metric-card">
+                <div class="m-label">Top Performer</div>
+                <div class="m-value" id="top-performer">Avery</div>
+                <div class="m-sub">HUSKY OF THE GAME</div>
+            </div>
+        </div>
+
+        <div class="data-grid">
+            <div class="card-container">
+                <div class="card-title">⭐ Husky Leaders</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Success %</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J. Harvey</td>
+                            <td class="highlight-purple">85.0%</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>K. Brown</td>
+                            <td class="highlight-purple">56.0%</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>E. Martinez</td>
+                            <td class="highlight-purple">50.0%</td>
+                            <td>4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card-container">
+                <div class="card-title">⚠️ Development Needed</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Success %</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>S. Williams</td>
+                            <td class="highlight-red">37.5%</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>P. Lee</td>
+                            <td class="highlight-red">37.5%</td>
+                            <td>16</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card-container full-width">
+                <div class="card-title">Full Roster Breakdown</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Good Execution</th>
+                            <th>Stand Around</th>
+                            <th>On Attack</th>
+                            <th>Total</th>
+                            <th>Final %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J. Harvey</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td class="highlight-purple">85.0%</td>
+                        </tr>
+                        <tr>
+                            <td>S. Williams</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>16</td>
+                            <td class="highlight-red">37.5%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

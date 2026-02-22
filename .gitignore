@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+credentials.json
+
+# Logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# Node (if you add later)
+node_modules/
+
+# Build folders
+dist/
+build/
