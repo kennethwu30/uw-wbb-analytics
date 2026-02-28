@@ -7,7 +7,7 @@
     <title>UW Huskies | Rebounding Analysis</title>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
 </head>
 
 <body>
@@ -42,8 +42,8 @@
 
         <div class="metrics-grid">
             <div class="metric-card critical">
-                <div class="m-label">Rebound Percentage</div>
-                <div class="m-value" id="rebound-pct" style="color: var(--danger-red);">41.2%</div>
+                <div class="m-label">Rebound Effort</div>
+                <div class="m-value" id="rebound-pct">41.2%</div>
                 <div class="m-sub">GOAL: 65.0%</div>
             </div>
             <div class="metric-card">
@@ -66,26 +66,9 @@
                         <tr>
                             <th>Player</th>
                             <th>Success %</th>
-                            <th>Total</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>J. Harvey</td>
-                            <td class="highlight-purple">85.0%</td>
-                            <td>5</td>
-                        </tr>
-                        <tr>
-                            <td>K. Brown</td>
-                            <td class="highlight-purple">56.0%</td>
-                            <td>4</td>
-                        </tr>
-                        <tr>
-                            <td>E. Martinez</td>
-                            <td class="highlight-purple">50.0%</td>
-                            <td>4</td>
-                        </tr>
-                    </tbody>
+                    <tbody id="husky-leaders-tbody"></tbody>
                 </table>
             </div>
 
@@ -96,21 +79,9 @@
                         <tr>
                             <th>Player</th>
                             <th>Success %</th>
-                            <th>Total</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>S. Williams</td>
-                            <td class="highlight-red">37.5%</td>
-                            <td>16</td>
-                        </tr>
-                        <tr>
-                            <td>P. Lee</td>
-                            <td class="highlight-red">37.5%</td>
-                            <td>16</td>
-                        </tr>
-                    </tbody>
+                    <tbody id="development-needed-tbody"></tbody>
                 </table>
             </div>
 
@@ -122,29 +93,13 @@
                             <th>Player</th>
                             <th>Good Execution</th>
                             <th>Stand Around</th>
-                            <th>On Attack</th>
+                            <th>On the Back</th>
+                            <th>Get Back</th>
                             <th>Total</th>
                             <th>Final %</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>J. Harvey</td>
-                            <td>3</td>
-                            <td>0</td>
-                            <td>1</td>
-                            <td>5</td>
-                            <td class="highlight-purple">85.0%</td>
-                        </tr>
-                        <tr>
-                            <td>S. Williams</td>
-                            <td>6</td>
-                            <td>4</td>
-                            <td>3</td>
-                            <td>16</td>
-                            <td class="highlight-red">37.5%</td>
-                        </tr>
-                    </tbody>
+                    <tbody id="full-roster-tbody"></tbody>
                 </table>
             </div>
         </div>

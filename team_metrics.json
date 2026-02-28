@@ -1,6 +1,150 @@
 {
-  "rebound_percentage": 68.4,
-  "total_good_attempts": 338,
-  "total_attempts": 494,
-  "top_performer": "#3 Coppinger"
+  "rebound_percentage": 70.9,
+  "total_good_attempts": 185,
+  "total_attempts": 261,
+  "top_performer": "#3 Coppinger",
+  "husky_leaders": [
+    {
+      "Player": "#3 Coppinger",
+      "success_pct": 92.9,
+      "Attempts": 28
+    },
+    {
+      "Player": "#2 Howell",
+      "success_pct": 85.2,
+      "Attempts": 27
+    },
+    {
+      "Player": "#5 Brown",
+      "success_pct": 79.4,
+      "Attempts": 34
+    }
+  ],
+  "development_needed": [
+    {
+      "Player": "#35 Harvey",
+      "success_pct": 50.0,
+      "Attempts": 20
+    },
+    {
+      "Player": "#21 McGaughy",
+      "success_pct": 52.9,
+      "Attempts": 17
+    },
+    {
+      "Player": "#0 Sellers",
+      "success_pct": 69.6,
+      "Attempts": 23
+    }
+  ],
+  "full_roster": [
+    {
+      "Player": "#0 Sellers",
+      "attempts": 23,
+      "good_execution": 16,
+      "stand_around": 4,
+      "on_the_back": "",
+      "get_back": 3,
+      "final_pct": 69.6
+    },
+    {
+      "Player": "#1 Stines",
+      "attempts": 25,
+      "good_execution": 18,
+      "stand_around": 3,
+      "on_the_back": 2,
+      "get_back": 2,
+      "final_pct": 72.0
+    },
+    {
+      "Player": "#2 Howell",
+      "attempts": 27,
+      "good_execution": 23,
+      "stand_around": 2,
+      "on_the_back": 1,
+      "get_back": 1,
+      "final_pct": 85.2
+    },
+    {
+      "Player": "#3 Coppinger",
+      "attempts": 28,
+      "good_execution": 26,
+      "stand_around": "",
+      "on_the_back": 1,
+      "get_back": 1,
+      "final_pct": 92.9
+    },
+    {
+      "Player": "#5 Brown",
+      "attempts": 34,
+      "good_execution": 27,
+      "stand_around": 3,
+      "on_the_back": 2,
+      "get_back": 2,
+      "final_pct": 79.4
+    },
+    {
+      "Player": "#11 Briggs",
+      "attempts": 24,
+      "good_execution": 17,
+      "stand_around": 2,
+      "on_the_back": 4,
+      "get_back": 1,
+      "final_pct": 70.8
+    },
+    {
+      "Player": "#21 McGaughy",
+      "attempts": 17,
+      "good_execution": 9,
+      "stand_around": 3,
+      "on_the_back": 5,
+      "get_back": "",
+      "final_pct": 52.9
+    },
+    {
+      "Player": "#22 Gillmer",
+      "attempts": 16,
+      "good_execution": 12,
+      "stand_around": 3,
+      "on_the_back": 1,
+      "get_back": "",
+      "final_pct": 75.0
+    },
+    {
+      "Player": "#23 Anderson",
+      "attempts": 14,
+      "good_execution": 4,
+      "stand_around": 8,
+      "on_the_back": 2,
+      "get_back": "",
+      "final_pct": 28.6
+    },
+    {
+      "Player": "#25 Cain",
+      "attempts": 13,
+      "good_execution": 9,
+      "stand_around": 1,
+      "on_the_back": 3,
+      "get_back": "",
+      "final_pct": 69.2
+    },
+    {
+      "Player": "#35 Harvey",
+      "attempts": 20,
+      "good_execution": 10,
+      "stand_around": 4,
+      "on_the_back": "",
+      "get_back": 6,
+      "final_pct": 50.0
+    },
+    {
+      "Player": "#55 Grabovskaia",
+      "attempts": 20,
+      "good_execution": 14,
+      "stand_around": 1,
+      "on_the_back": 5,
+      "get_back": "",
+      "final_pct": 70.0
+    }
+  ]
 }
